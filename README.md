@@ -1,11 +1,38 @@
 # iot-projects
 
-## Project proposal
+### Upadate Jan. 18
+#### Fresh news about the components
+* The IoT course has at its disposal (both for the labs and projects)
+  * Arduino Kits;
+  * ESP32;
+  * ZigBee modules;
+  * LoRa modules;
+* ZigBee modules should be interesting for those who are willing to work on some home automation stuff (short-range communications);
+* LoRa modules are used for long-range communications. e.g. smart-cities, smart-farmes, etc.
+
+#### About your ideas
+Think about the four parts of IoT, i.e.:
+* sensors / actuators;
+* connectivity;
+* application;
+* and, platforms,
+
+that your implementation must cover.
 
 ### Some resources (Will be updated regularly, so stay tuned) 
 * [Here](https://www.youtube.com/watch?v=yr6IzOGoMsQ) is a video explaining how to make a contribution (a pull-request) to someone's repository;
 * To get inspired, some readings about *Disney Reasearch* work [here](https://www.disneyresearch.com/publication/designing-groundless-body-channel-communication-systems/);
-
+---
+* **Update Jan. 18:**
+  * For those who proposed monitoring eating habits, to get inspired, here are some screenshots from "*Auracle: Detecting Eating Episodes with an Ear-Mounted Sensor*" (Ubicomp 2018) which proposes an interesting solution
+  * <div align="center">
+      <img src="https://user-images.githubusercontent.com/8298445/51395936-4d480a80-1b3e-11e9-8fb8-3c5dacb94e03.png" height=300px>
+      <img src="https://user-images.githubusercontent.com/8298445/51396669-d14ec200-1b3f-11e9-8f2c-6a77d4659c0b.png" height=300px>
+    </div>
+  * More generally, above papers and other cutting-edge research projects can be found in the program of the Ubiquitous computing conference (UbiComp) [Here](http://ubicomp.org/ubicomp2018/program/program.html).
+  * **Important:** Have fun conceiving your ideas!
+  
+## Project proposal
 ### Step 1
 Fork this repository
 
