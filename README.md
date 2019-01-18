@@ -30,7 +30,9 @@ that your implementation must cover.
       <img src="https://user-images.githubusercontent.com/8298445/51396669-d14ec200-1b3f-11e9-8f2c-6a77d4659c0b.png" height=300px>
     </div>
   * More generally, above papers and other cutting-edge research projects can be found in the program of the Ubiquitous computing conference (UbiComp) [Here](http://ubicomp.org/ubicomp2018/program/program.html).
-  * **Important:** Have fun conceiving your ideas!
+  * **Important:**
+    * Have fun while conceiving your ideas!
+    * If you do have any question, ask it by filling an issue in this repo as described [here](https://www.youtube.com/watch?v=yAPSbIHcDTw) and we (me or one of your classmates) will try to answer it.
   
 ## Project proposal
 ### Step 1
