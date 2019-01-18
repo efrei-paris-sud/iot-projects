@@ -29,6 +29,7 @@ that your implementation must cover.
       <img src="https://user-images.githubusercontent.com/8298445/51395936-4d480a80-1b3e-11e9-8fb8-3c5dacb94e03.png" height=300px>
       <img src="https://user-images.githubusercontent.com/8298445/51396669-d14ec200-1b3f-11e9-8f2c-6a77d4659c0b.png" height=300px>
     </div>
+    (A connected cap is not a non-sense at all :wink:, it is the use-case that matters, and eventually where innovation lies!)
   * More generally, above papers and other cutting-edge research projects can be found in the program of the Ubiquitous computing conference (UbiComp) [Here](http://ubicomp.org/ubicomp2018/program/program.html).
   * **Important:**
     * Have fun while conceiving your ideas!
