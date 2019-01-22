@@ -3,8 +3,11 @@ Team Member & their emails/Git :
 
 
 Elise AUVRAY elise.auvray@efrei.net  https://github.com/elise-avr
+
 Ian DUCROT ian.ducrot--thollon-pommerol@efrei.net  https://github.com/hyzao
+
 Aurélien AMAR aurelien.amar@efrei.net  https://github.com/AurelienLW
+
 Renan GIMENEZ renan.gimenez@efrei.net  https://github.com/renangimenez
 
 Project Name : 21AF
