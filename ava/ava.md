@@ -1,4 +1,4 @@
-#EYE-TRUCK
+# EYE-TRUCK
 
 Our contributors are :
 - Keller Vincent, M1 ISCE, vincent.keller@efrei.net, https://github.com/KellerVincent
