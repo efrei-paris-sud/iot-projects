@@ -1,9 +1,8 @@
-NAME              EMAIL                         GITHUB
-KREMER Nathan     nathan.kremer@efrei.net       xD3CODER
-M'BARKI Sabri     sabri.mbarki@efrei.net        sabrimbk
-LI Zixuan         zixuan.li@efrei.net           lizixuan4530
-CARDONNE Thomas   thomas.cardonne@efrei.net     tcardonne
-TRAN Kinh-Vinh    kinh-vinh.tran@efrei.net      Kvinhtr
+* KREMER Nathan     nathan.kremer@efrei.net       xD3CODER                           
+* M'BARKI Sabri     sabri.mbarki@efrei.net        sabrimbk
+* LI Zixuan         zixuan.li@efrei.net           lizixuan4530
+* CARDONNE Thomas   thomas.cardonne@efrei.net     tcardonne
+* TRAN Kinh-Vinh    kinh-vinh.tran@efrei.net      Kvinhtr
 
 
 Name of the product : SUBTEE
@@ -21,5 +20,5 @@ With SUBTEE we can put subtitle directly on our shirt in order to understand wha
 Component needed : 
 * A shirt
 * Screen LED
-* Arduino
-*...
+* 
+* 
