@@ -31,12 +31,22 @@ with an nfc card instead of a phone doing the job.
 This device would let them connect to their online working station with their card/phone only, and be more secured. 
 
 List of component : 
+
 RasberryPI (the B version cause we wouldn't need WIFI)
+
 NFC card for rasberry
+
 Plastic for 3D printing
+
 LED display for validation
+
 BreadBoard
+
 USB/bluetooth NumPad for validation (optionnal)
+
 LED (Red/Green) for validation/failure (Optionnal)
+
 LAN wire
+
 RB PI wires
+
