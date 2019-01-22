@@ -1,4 +1,5 @@
-DeathlyHallow
+DeathlyHallows
+
 Team Member & their emails/Git :
 
 
