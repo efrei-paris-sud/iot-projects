@@ -1,3 +1,6 @@
+# SUBTEE
+
+Contributors :
 * KREMER Nathan     nathan.kremer@efrei.net       xD3CODER                           
 * M'BARKI Sabri     sabri.mbarki@efrei.net        sabrimbk
 * LI Zixuan         zixuan.li@efrei.net           lizixuan4530
@@ -5,7 +8,7 @@
 * TRAN Kinh-Vinh    kinh-vinh.tran@efrei.net      Kvinhtr
 
 
-Name of the product : SUBTEE
+
 
 Description : 
 Have ever be in the situation when you cannot talk to someone because they are speaking another language ? 
