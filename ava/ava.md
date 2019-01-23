@@ -19,6 +19,14 @@ Here a schema :
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/gr-tas-nozone-450x215.jpg)
 
+As many research pointed out,the truck blind spot problem is widespread and well-attested:
+In Belgium, 43% of cycling fatalities involve trucks, in Holland 38% and in the UK 33%. In some cities, like London, trucks cause more than 50% of cyclist deaths.
+In Denmark, over the last decade, 50 cyclists died in right-turn accidents with trucks. A survey by the Danish Road Safety Council showed that overall, right-turn accidents with trucks constitute 15 to 20 % of all cyclists killed in traffic.
+In the Netherlands on average nine cyclists die every year in blind spot/right-turn accidents (2005-2009 average).
+In Germany 23 cyclists lost their lives in right-turn accidents with a HGV in 2012.
+
+Analysis1 of UK statistics suggest the 3 main danger zones around the truck cab are: the front of the lorry (when the lorry pulls away), the left (rest of the EU right) and the right (rest of the EU left) crashes for turning accidents.
+
 Components needed :
 - 2 LEDs red/green
 - Electrical Cables
