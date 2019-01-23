@@ -1,4 +1,4 @@
-# SUBTEE
+# SubTee
 
 Contributors :
 * KREMER Nathan     nathan.kremer@efrei.net       xD3CODER                           
@@ -23,5 +23,9 @@ With SUBTEE we can put subtitle directly on our shirt in order to understand wha
 Component needed : 
 * A shirt
 * Screen LED
-* 
-* 
+* Microphone
+* Wireless Adapter (connection to the phone)
+* Controller (Arduino/RaspberryPi)
+* Click-Button
+* Batteries
+* Electrical wires
