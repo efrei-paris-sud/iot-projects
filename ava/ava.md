@@ -25,7 +25,7 @@ In Denmark, over the last decade, 50 cyclists died in right-turn accidents with 
 In the Netherlands on average nine cyclists die every year in blind spot/right-turn accidents (2005-2009 average).
 In Germany 23 cyclists lost their lives in right-turn accidents with a HGV in 2012.
 
-Analysis1 of UK statistics suggest the 3 main danger zones around the truck cab are: the front of the lorry (when the lorry pulls away), the left (rest of the EU right) and the right (rest of the EU left) crashes for turning accidents.
+Analysis of UK statistics suggest the 3 main danger zones around the truck cab are: the front of the lorry (when the lorry pulls away), the left (rest of the EU right) and the right (rest of the EU left) crashes for turning accidents.
 
 Components needed :
 - 2 LEDs red/green
