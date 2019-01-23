@@ -18,7 +18,6 @@ The main features are those that our team will focus on in order to make a deliv
 * Easy access to arable land
 * Automatic watering
 * Automatic light management
-* Controlled ventilation
 
 ## Secondary features
 
@@ -27,7 +26,7 @@ The secondary features are the ones we will work on once the main functionalitie
 * A clear and complete man / garden interface
 * An adaptation to the type of plant
 * Automatic moisture adjustment
-
+* Controlled ventilation
 
 Designing a smart garden, autonomous and small become a real need to give back to the citizen to see germinate their own flowers!
 
