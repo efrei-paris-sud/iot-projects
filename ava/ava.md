@@ -17,7 +17,7 @@ The market we are aiming for is the sector of logistics transport
 Here a schema :
 ![alt text](https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50337171_295630234427899_5954866671507210240_n.jpg?_nc_cat=101&_nc_ht=scontent.fcdg2-1.fna&oh=0a23ed3b65b7b15b16704d0fb2e7fa84&oe=5CFA5E88)
 
-![alt text](/iot-projects/ava/pictures/gr-tas-nozone-450x215.jpg)
+![gitHub](/iot-projects/ava/pictures/gr-tas-nozone-450x215.jpg)
 
 Components needed :
 - 2 LEDs red/green
