@@ -2,7 +2,7 @@
 
 Our contributors are :
 - Keller Vincent, M1 ISCE, vincent.keller@efrei.net, https://github.com/KellerVincent
-- Vo Antoine, M1 ISCE, antoine.vo@efrei.net, https://github.com/siiscil
+- Vo Antoine, M1 ISCE, antoine.vo@efrei.net, https://github.com/siiscil, @siiscil
 - Yongyi Zhu, M1 ISCE, 845218740@qq.com, https://github.com/YongyiZhu
 ![alt text](https://cdn.pixabay.com/photo/2016/05/25/14/14/angel-1414951_1280.png)
 
