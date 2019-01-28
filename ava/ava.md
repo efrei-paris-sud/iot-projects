@@ -11,8 +11,8 @@ A number of accidents happen on large vehicles each year because the drivers don
 As long as other cars are in the blind zone,detected by radars, the light will be on so that the driver can know and be careful when he is turning.Our product is hoped to be helpful in the bus and truck company to reduce accident risk.
 
 ## Why would you use EYE-TRUCK ?
-In the current market, when you want a device for the blindzone, most of them use cameras. The problem with it is that you need to put a screen in the board of the truck. In order to use it correctly, you will need to change your habit and to make it.
-The market we are aiming for is the sector of logistics transport
+In the current market, when you want a device for the blindzone, most of them use cameras. The problem with it is that you need to put a screen in the board of the truck. In order to use it correctly, you will need to change your habit and to make it. Furthermore the blind spot monitoring system are optional and very expansive. Also there are not a standard device for trucks. So we will create a monitoring blind spot system that fits with any kind of trucks. The fact that we choose to create a generic device will reduce it's cost.
+That's why, the market we are aiming for is the sector of logistics transport.
 
 Here a schema :
 ![alt text](https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50337171_295630234427899_5954866671507210240_n.jpg?_nc_cat=101&_nc_ht=scontent.fcdg2-1.fna&oh=0a23ed3b65b7b15b16704d0fb2e7fa84&oe=5CFA5E88)
