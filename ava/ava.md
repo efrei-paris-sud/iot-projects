@@ -34,7 +34,18 @@ First, the light must be put somewhere that is not distracting the driver or tha
 ### Why wouldn't you use a camera instead of a sensor ?
 Many reasons favor the use of sensors. The first and biggest reason is because it is CHEAPER. We want to make something accessible for each car and each person that would like to improve the security of the car without paying a lot of money. You would argue that cameras are cheaper day by day and this is true. However, when you buy a camera you also need to buy a screen monitor in order to display the image of the camera. Moreover, if you add a screen, the driver will have to do add one more checking in his checklist whenever he wants to turn. This will slow own his reaction and we don't want this. Then, you would also argue that you can make detect an object with AI and machine learning and trigger a LED without having to display the image to the user. That solution would work. But, you would need enough computational power in order to make picture analysis with enough precision and also a camera with lots of pixel and FPS in order to be able to capture a moving object. A Raspberry Pi and a small webcam won't clearly be enough for it. This would be too expensive.
 
-Components needed :
+### How we will implement it
+We will make a standalone sensor that will send data to the sensor via Wifi. We will connect the sensor to an antenna and it will be alimented with a battery. Then, we will make the arduino to be able to send and receive orders. The arduino will also be directly linked to the LED with cables and will be alimented by a battery.
+
+### What are going to be the difficulty ?
+A lot !
+We have many questions that we do not know the answer. First, if we will use sound or radio wave do we have any problem with the Doppler Effect ?
+Then, we also don't know how an antenna would work on a sensor.
+Finally, we are scared that the power of the sensor won't be enough to detect objects that are too far.
+
+
+
+## Summary of the components needed
 - 2 LEDs red/green
 - Electrical Cables
 - Radars sensors
