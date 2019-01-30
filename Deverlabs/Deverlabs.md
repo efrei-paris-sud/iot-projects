@@ -17,6 +17,7 @@ anymore. Even if you are speaking another language than the other, you will stil
 This product is targeting the people who willing to travel to foreign countries. 
 We're learning foreign language step by step and from the beginnin it's hard to follow native speaker because of their accent, tone, speed.
 With SUBTEE we can put subtitle directly on our shirt in order to understand what they are talking.
+While transcripting what you are saying, we gonna also analyse what you re feelings towards what your saying with a recognition of positive or negative words.
 
 
 
