@@ -13,7 +13,7 @@ words
 Cible : 
 Adolescent de 15/28ans et retraité de 40/65 ans
 
-Fonctionnalités du bracelet connecté :
+Fonctionnalitées du bracelet connecté :
 -	Alarme (Haut-parleur)
 -	Affichage de messages textuel (Ecran LCD)
 -	Chronométrage de la durée de l’effort
@@ -31,8 +31,17 @@ Etape d’utilisation de l’application :
 L’âge, le poids, le nom et username, le type d’exercice pratiqué (course à pied etc.)
 3)	L’utilisateur peut accéder à sa page personnelle, démarrer l’activité ou lire des conseils diététiques
 
-
+Menbres du groupes et fonctions //
 Responsable design : Tristan le bras 
 Responsable code : Alexandre dequeker
 Responsable Hardware : Alexandre Fieux
 Chef de projet : Anthony Morali
+
+Composants demandés ///
+	Capteur de pouls et fréquence cardiaque
+Reference: https://www.amazon.fr/HALJIA-fréquence-Cardiaque-Pulsesensor-Raspberry/dp/B01CBGH4N6
+	Micro controleur esp32
+	Haut-parleur 
+	Plaque d'Expérimentation Vierge Perforée
+	Ecran LCD  - Rétroéclairé pour bracelet connecte
+	Micro-capteur d'humidité
