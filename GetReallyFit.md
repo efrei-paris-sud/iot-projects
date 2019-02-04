@@ -32,10 +32,11 @@ L’âge, le poids, le nom et username, le type d’exercice pratiqué (course �
 3)	L’utilisateur peut accéder à sa page personnelle, démarrer l’activité ou lire des conseils diététiques
 
 Menbres du groupes et fonctions //
-Responsable design : Tristan le bras 
-Responsable code : Alexandre dequeker
-Responsable Hardware : Alexandre Fieux
-Chef de projet : Anthony Morali
+Responsable design : Tristan le bras - tristan.le.bras@efrei.net
+Responsable code : Alexandre dequeker- alexandre.dequeker@efrei.net
+Responsable Hardware : Alexandre Fieux - alexandre.fieux@efrei.net
+Chef de projet : Anthony Morali – anthony.morali@efrei.net
+
 
 Composants demandés ///
 	Capteur de pouls et fréquence cardiaque
