@@ -1,5 +1,5 @@
 
-
+Idée numéro 1 //
 But de l’application :
 Encourager les personnes à pratiquer une activité sportive régulière. Les accompagner dans leur exercice physique. 
 Leur donner un suivi de leur activité. (Niveau d’intensité de l’effort, Taux d’humidité, 
@@ -31,13 +31,6 @@ Etape d’utilisation de l’application :
 L’âge, le poids, le nom et username, le type d’exercice pratiqué (course à pied etc.)
 3)	L’utilisateur peut accéder à sa page personnelle, démarrer l’activité ou lire des conseils diététiques
 
-Menbres du groupes et fonctions //
-Responsable design : Tristan le bras - tristan.le.bras@efrei.net
-Responsable code : Alexandre dequeker- alexandre.dequeker@efrei.net
-Responsable Hardware : Alexandre Fieux - alexandre.fieux@efrei.net
-Chef de projet : Anthony Morali – anthony.morali@efrei.net
-
-
 Composants demandés ///
 	Capteur de pouls et fréquence cardiaque
 Reference: https://www.amazon.fr/HALJIA-fréquence-Cardiaque-Pulsesensor-Raspberry/dp/B01CBGH4N6
@@ -46,3 +39,32 @@ Reference: https://www.amazon.fr/HALJIA-fréquence-Cardiaque-Pulsesensor-Raspber
 	Plaque d'Expérimentation Vierge Perforée
 	Ecran LCD  - Rétroéclairé pour bracelet connecte
 	Micro-capteur d'humidité
+
+
+
+
+Idée numéro 2 //
+
+But de l’application :
+Grace à des capteurs d’intensités sonores l’application détermine lorsque le bébé réclame ses parents. 
+L’application envoie une notification à différents objets connectés au baby phone (smartwatch, smartphone, enceinte co, …). L’application est paramétrable pour envoyer les notifications à partir d’un certain niveau de décibel et temps. 
+Depuis notre smartphone on peut lancer une musique, allumer une lampe (…) le temps d’arriver dans la chambre. Le dispositif 
+sera aussi complet à un lecteur audio pour qu'il lance automatiquement une musique pour appaiser le bebe.
+
+
+
+Composants demandés ///
+	Capteur de sonore
+	Micro controleur esp32 (X2)
+	Haut-parleur 
+	Plaque d'Expérimentation Vierge Perforée
+	Ecran LCD  - Rétroéclairé 
+
+
+Menbres du groupes et fonctions //
+Responsable design : Tristan le bras - tristan.le.bras@efrei.net
+Responsable code : Alexandre dequeker- alexandre.dequeker@efrei.net
+Responsable Hardware : Alexandre Fieux - alexandre.fieux@efrei.net
+Chef de projet : Anthony Morali – anthony.morali@efrei.net
+
+
