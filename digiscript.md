@@ -1,8 +1,8 @@
-Dziurda Nicolas, nicolas.dziurda@efrei.net
-Jobin Guillaume, guillaume.jobin@efrei.net
-Arpin Thomas, thomas.arpin@efrei.net
-Cornier Thomas, thomas.cornier@efrei.net
-Demeulemeester Steve, steve.demeulemeester@efrei.net
+- Dziurda Nicolas, nicolas.dziurda@efrei.net
+- Jobin Guillaume, guillaume.jobin@efrei.net
+- Arpin Thomas, thomas.arpin@efrei.net
+- Cornier Thomas, thomas.cornier@efrei.net
+- Demeulemeester Steve, steve.demeulemeester@efrei.net
 
 digiscript
 
