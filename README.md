@@ -1,5 +1,10 @@
 # iot-projects
 
+### Update Jan. 30
+This repo did not get any pull-request, it is time to fill one for your project proposal!
+* For those who have already created an `.md` file, create a pull-request as soon as possible! The reason is that we have to setup teams and repositories **where we will discuss the list of components and we will try to orient/re-orient your research by providing links or resources to begin with**.
+* For those who did not create an `.md` file || do not have an idea || do not belong to a team, **do it as soon as possible** (the steps are below). 
+
 ### Upadate Jan. 18
 #### Fresh news about the components
 * The IoT course has at its disposal (both for the labs and projects)

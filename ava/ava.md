@@ -14,6 +14,11 @@ As long as other cars are in the blind zone,detected by radars, the light will b
 In the current market, when you want a device for the blindzone, most of them use cameras. The problem with it is that you need to put a screen in the board of the truck. In order to use it correctly, you will need to change your habit and to make it. Furthermore the blind spot monitoring system are optional and very expansive. Also there are not a standard device for trucks. So we will create a monitoring blind spot system that fits with any kind of trucks. The fact that we choose to create a generic device will reduce it's cost.
 That's why, the market we are aiming for is the sector of logistics transport.
 
+## Why EYE-TRUCK is the best blind spot monitoring system of the market?
+First, Eye-Truck doesn’t use cameras to detect an object or a person in the blind zone like mostly of devices on the market. This is very interesting because it makes our product cheaper than the others of the market and everybody is agreeing to say that we must make accessible safety tools for everyone. Also, since we decided to put LED at the sides of the trucks, visible via the side mirror, the driver doesn’t need to change habit and will continue to check in their side-mirror when he turns. That’s increase the efficiency of our product and reduce the accidents in case of system failure. Furthermore, even if there are many different blind spot monitoring systems that exist in the market, there is no one that is specific for trucks. This is terrible since trucks have the widest blind zone and a survey shows that the most of accident involve trucks. That’s why we create a blind spot monitoring system that fit with any kind of trucks and buses. Doing a generic blind spot monitoring system for trucks is another way to reduce again the price. So, we offer the most efficient and cheaper blind spot monitoring system of the market in order to grant the safety for all people.
+
+
+
 Here a schema :
 ![alt text](https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50337171_295630234427899_5954866671507210240_n.jpg?_nc_cat=101&_nc_ht=scontent.fcdg2-1.fna&oh=0a23ed3b65b7b15b16704d0fb2e7fa84&oe=5CFA5E88)
 
