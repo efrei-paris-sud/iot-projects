@@ -52,9 +52,13 @@ Finally, we are scared that the power of the sensor won't be enough to detect ob
 
 ## Summary of the components needed
 - 2 LEDs red/green
-- Electrical Cables
+- Bluetooth dongle
 - Radars sensors
 - Raspberry or Arduino
 - A converter for battery
-- Box (3DPrinted ?)
+- Box (3DPrinted)
 - Glasses to protect your LED (Optional)
+
+## Technical Overview : How to do it ?
+
+We will use Bluetooth to communicate between the radar and the Arduino.
