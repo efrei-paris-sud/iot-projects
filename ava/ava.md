@@ -61,4 +61,8 @@ Finally, we are scared that the power of the sensor won't be enough to detect ob
 
 ## Technical Overview : How to do it ?
 
-We will use Bluetooth to communicate between the radar and the Arduino.
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema.jpg)
+
+We will use Bluetooth to communicate between the radar and the Arduino. Moreover, we need to have an interface from the device to the user.
+We decided to use a LED to switch on when there is something in the blindspot and switch off when there is nothing. We have to be careful that the other cars do not mistake the LED with the turn signal. We might have to decrease the intensity of the light for it.
+Finally, we choose to also a gyro sensor to know when the user is currently turning. If a car or something is in his blind spot, the LED will flash to ask the driver to check.
