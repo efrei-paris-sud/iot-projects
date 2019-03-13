@@ -83,3 +83,9 @@ The radar sensors will be put on the side (orange circles) , at the beginning of
 
 The principle is easy, if there is a car or a bike in front of the sensor and also the truck is moving to the left, the arduino will trigger the LED. Else, it will stay shutdown.
 We are switching on the LED only when the truck is trying to turn because we don't want to give too much information by having a LED that will switch on whenever a car is crossing the blindzone when the truck is moving straight. If the light keep turning on will make the driver be accustomed to it and won't look at it anymore.
+
+
+
+Ultrasonic sensor (Radar details)
+The radar works with electricity power. It can detect object between 2 and 400 cm. It has a mesuring angle equal to 30 degree. The principle is very simple. It uses the echolocation like bats. Basically the trigger input of the radar send a high pulse of 10us and then the echo pin will receive the echo of the pulse. Now since we know the speed of the pulse and the moments when we send it and receive it, we can know the distance between the radar and the object: distance = (traveltime/2) * speed of sound.
+
