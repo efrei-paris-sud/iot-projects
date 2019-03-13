@@ -4,7 +4,7 @@ Our contributors are :
 - Keller Vincent, vincent.keller@efrei.net, https://github.com/KellerVincent
 - Vo Antoine, antoine.vo@efrei.net, https://github.com/siiscil
 - Yongyi Zhu, 845218740@qq.com, https://github.com/YongyiZhu
--Yixin Li, liyixin@bupt.edu.cn,https://github.com/lalalalyx
+- Yixin Li, liyixin@bupt.edu.cn,https://github.com/lalalalyx
 ![alt text](https://cdn.pixabay.com/photo/2016/05/25/14/14/angel-1414951_1280.png)
 
 ## What is EYE-TRUCK ?
