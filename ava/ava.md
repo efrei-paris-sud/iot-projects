@@ -64,21 +64,26 @@ We used Sammie software (a human-machine analysis software developed by Loughbor
 
 When the product is launched, we can analyze most of the truck models in the market and get the dataset of the blind zone to provide the basis for the development of EYE-CHUCK.
 
+### Use Case 1:
+
+I am a truck driver and I want to turn. However, we are nu
 ## Technical Overview : How to do it ?
 
-![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema.jpg)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema2.jpg)
 
 We will use Bluetooth to communicate between the radar and the Arduino. Moreover, we need to have an interface from the device to the user.
 We decided to use a LED to switch on when there is something in the blindspot and switch off when there is nothing. We have to be careful that the other cars do not mistake the LED with the turn signal. We might have to decrease the intensity of the light for it.
-Finally, we choose to also a gyro sensor to know when the user is currently turning. If a car or something is in his blind spot, the LED will flash to ask the driver to check.
+
 
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/CarLED.jpg)
-We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight. Indeed, when we want to turn, we check for the side mirror but when we don't want to turn, we do not check it.
+
+We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight.
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/EmplacementRadar.jpg)
+
 The radar sensors will be put on the side (orange circles) , at the beginning of the blind spot and the second one will be put at the end of the blind spot.
 
 The principle is easy, if there is a car or a bike in front of the sensor and also the truck is moving to the left, the arduino will trigger the LED. Else, it will stay shutdown.
@@ -86,7 +91,7 @@ We are switching on the LED only when the truck is trying to turn because we don
 
 
 
-Ultrasonic sensor (Radar details)
+## Ultrasonic sensor (Radar details)
 The radar works with electricity power. It can detect object between 2 and 400 cm. It has a mesuring angle equal to 30 degree. The principle is very simple. It uses the echolocation like bats. Basically the trigger input of the radar send a high pulse of 10us and then the echo pin will receive the echo of the pulse. Now since we know the speed of the pulse and the moments when we send it and receive it, we can know the distance between the radar and the object: distance = (traveltime/2) * speed of sound.
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/radar.jpg)
 
