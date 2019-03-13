@@ -70,12 +70,12 @@ When the product is launched, we can analyze most of the truck models in the mar
 
 We will use Bluetooth to communicate between the radar and the Arduino. Moreover, we need to have an interface from the device to the user.
 We decided to use a LED to switch on when there is something in the blindspot and switch off when there is nothing. We have to be careful that the other cars do not mistake the LED with the turn signal. We might have to decrease the intensity of the light for it.
-Finally, we choose to also a gyro sensor to know when the user is currently turning. If a car or something is in his blind spot, the LED will flash to ask the driver to check.
+
 
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/CarLED.jpg)
-We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight. Indeed, when we want to turn, we check for the side mirror but when we don't want to turn, we do not check it.
+We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight.
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/EmplacementRadar.jpg)
