@@ -35,7 +35,11 @@ First, Eye-Truck doesn’t use cameras to detect an object or a person in the bl
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/maxresdefault.jpg)
 BLIS is an acronym for Blind Spot Information System, a system of protection developed by Volvo. Volvo's previous parent, Ford Motor Company, has since adapted the system to its Ford, Lincoln, and Mercury brands.
 
-This system was first introduced on the redesigned 2007 Volvo S80 sedan and produced a visible alert when a car entered the blind spot while a driver was switching lanes, using two door mounted lenses to check the blind spot area for an impending collision.
+This system was first introduced on the redesigned 2007 Volvo S80 sedan and produced a visible alert when a car entered the blind spot while a driver was switching lanes.
+
+#### Why are we better ?
+- We are not bound to a carmaker. Our device can be plug anywhere and to any car.
+- We are focusing on trucks while Volvo is only for cars
 
 ## How will we do it ?
 A radar sensor or a laser sensor or any kind of proximity sensor will detect an object nearby. We will use the sensor the most suitable sensor after testing wich one is suited for the situation. Whenever a car or any object is near the sensor, it will detect the object and send a wireless signal to the Arduino. The Arduino will switch a LED in red. When the object finally leave, the sensor stop sending the signal and the LED will turn green again. This seems simple however a lot of variable have to be taken in consideration. 
