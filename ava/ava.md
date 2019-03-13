@@ -64,6 +64,9 @@ We used Sammie software (a human-machine analysis software developed by Loughbor
 
 When the product is launched, we can analyze most of the truck models in the market and get the dataset of the blind zone to provide the basis for the development of EYE-CHUCK.
 
+### Use Case 1:
+
+I am a truck driver and I want to turn. However, we are nu
 ## Technical Overview : How to do it ?
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema2.jpg)
