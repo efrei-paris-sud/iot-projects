@@ -86,7 +86,7 @@ We are switching on the LED only when the truck is trying to turn because we don
 
 
 
-Ultrasonic sensor (Radar details)
+##Ultrasonic sensor (Radar details)
 The radar works with electricity power. It can detect object between 2 and 400 cm. It has a mesuring angle equal to 30 degree. The principle is very simple. It uses the echolocation like bats. Basically the trigger input of the radar send a high pulse of 10us and then the echo pin will receive the echo of the pulse. Now since we know the speed of the pulse and the moments when we send it and receive it, we can know the distance between the radar and the object: distance = (traveltime/2) * speed of sound.
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/radar.jpg)
 
