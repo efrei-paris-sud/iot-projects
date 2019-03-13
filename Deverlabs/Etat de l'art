@@ -19,6 +19,14 @@ https://letmeknow.fr/blog/2013/08/26/tuto-realiser-une-liaison-wifi/
 * Connection to the Phone - How to connect to your phone (with Wifi) : 
 https://www.youtube.com/watch?v=CV48QxsH0HQ
 
+* Needs to search for the different sensors compatible with arduino :
+https://robokits.co.in/sensors/voice-recognition-module-arduino-compatible
+https://fr.rs-online.com/web/p/products/1743250/?grossPrice=Y&cm_mmc=FR-PLA-DS3A-_-google-_-PLA_FR_FR_CATCHALL-_-Catch+All+Ad+Group-_-PRODUCT_GROUP&matchtype=&pla-293946777986&gclid=Cj0KCQiAh9njBRCYARIsALJhQkG4rD6eXcgCew_XKoE7RBULQ1WSJ5tNEnOQQEnK7YpJerlOkPOg_DsaAq6VEALw_wcB&gclsrc=aw.ds
 
+* Tutorial to how we can do it :
+https://www.imagesco.com/articles/hm2007/SpeechRecognitionTutorial01.html
+https://www.youtube.com/watch?v=Ur1tzMDP97g&vl=en
+
+* Need to choose how much time per second word length to how much every phrase are gonna be (.96 second word length (40 word vocabulary) or the 1.92 second word length (20 word vocabulary)
 
 
