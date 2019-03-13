@@ -1,6 +1,24 @@
-Product already made :
+Etat de l'art - SubBag
+
+* Product already made about Application that transcribe our voice :
 http://www.authot.com/fr/2015/11/26/traduction-en-direct/ => Application that directly transcript what we saying and translating it.
 
-Transcription :
+* Transcription - How it Works ? :
 https://surdifrance.org/info-par-theme/accessibilite/237-metier-transcripteur-en-simultane
+
+* A Voice Recognition device created with arduino :
+https://www.developpez.net/forums/d1753780/general-developpement/programmation-systeme/embarque/arduino/utiliser-reconnaissance-vocale-reconnaitre-bruits/
+Basically they re analyzing your voice saying a color and the same color is lighted up.
+
+* Microsoft API that transcript your voice :
+https://www.nexmo.com/blog/2018/03/14/speech-voice-translation-microsoft-dr/
+
+* Connection to Wi-Fi - How to connect to wifi with arduino : 
+https://letmeknow.fr/blog/2013/08/26/tuto-realiser-une-liaison-wifi/
+
+* Connection to the Phone - How to connect to your phone (with Wifi) : 
+https://www.youtube.com/watch?v=CV48QxsH0HQ
+
+
+
 
