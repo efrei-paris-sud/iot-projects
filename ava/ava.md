@@ -67,14 +67,16 @@ Finally, we are scared that the power of the sensor won't be enough to detect ob
 - Glasses to protect your LED (Optional)
 
 ## How do we know where is the blind spot？
-The size and extent of the blind spot will usually vary depending on factors such as the size of the truck and the location of the mirror installation. Since EYE-CHUCK is a portable device that can be installed on all trucks, it must be adapted to the type of truck to be installed during the development of EYE-CHUCK, so that EYE-CHUCK can provide drivers with more accurate reminders.
+The size and extent of the blind spot will usually vary depending on factors such as the size of the truck and the location of the mirror installation. Since EYE-TRUCK is a portable device that can be installed on all trucks, it must be adapted to the type of truck to be installed during the development of EYE-TRUCK, so that EYE-CHUCK can provide drivers with more accurate reminders.
 
 We used Sammie software (a human-machine analysis software developed by Loughborough University in the UK) for analysis. The model of the truck is built in the sammie software, and the 90% standard human model is selected to analyze the driver's direct field of view in the cockpit and the indirect field of view through the mirror. As shown below
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis1.png)
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis2.png)
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis3.png)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/size.png)
 
-When the product is launched, we can analyze most of the truck models in the market and get the dataset of the blind zone to provide the basis for the development of EYE-CHUCK.
+
+When the product is launched, we can analyze most of the truck models in the market and get the dataset of the blind zone to provide the basis for the development of EYE-TRUCK.
 
 ### Use Case 1:
 
