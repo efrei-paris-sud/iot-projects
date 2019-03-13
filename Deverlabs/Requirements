@@ -6,10 +6,11 @@ Idea to do a MVP (minimum viable product)
 
 Definitive list of tools we need :
 - Arduino Board
-- Voice Recognition Module (Geeetech Voice Recognition Module that can recognize 15 voice instruction)
+- Voice Recognition Module (Geeetech Voice Recognition Module that can recognize 15 voice instruction) / Mic only
 - Microphone
 - USB to TTL module
-- Servo Motor
+- Battery module
+- On/Off switch
 - Jump Wires
 - Wifi module
 - Bum Bag
