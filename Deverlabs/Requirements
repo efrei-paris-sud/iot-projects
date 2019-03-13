@@ -16,6 +16,7 @@ Definitive list of tools we need :
 - Bum Bag
 - Smartphone with Cayenne
 - Battery
+- max7219
 
 User Story 1 : As a User, i want to talk so that it retranscript my voice on the screen
 - Connect the microphone and the Arduino in order to detect our voice
