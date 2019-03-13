@@ -15,6 +15,7 @@ Definitive list of tools we need :
 - Wifi module
 - Bum Bag
 - Smartphone with Cayenne
+- Battery
 
 User Story 1 : As a User, i want to talk so that it retranscript my voice on the screen
 - Connect the microphone and the Arduino in order to detect our voice
