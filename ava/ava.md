@@ -75,10 +75,12 @@ We decided to use a LED to switch on when there is something in the blindspot an
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/CarLED.jpg)
+
 We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight.
 
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/EmplacementRadar.jpg)
+
 The radar sensors will be put on the side (orange circles) , at the beginning of the blind spot and the second one will be put at the end of the blind spot.
 
 The principle is easy, if there is a car or a bike in front of the sensor and also the truck is moving to the left, the arduino will trigger the LED. Else, it will stay shutdown.
