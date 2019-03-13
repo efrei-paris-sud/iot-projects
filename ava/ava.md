@@ -29,6 +29,14 @@ In recent years, blind spot monitoring systems have been used in passenger cars.
 ## Why EYE-TRUCK is the best blind spot monitoring system of the market?
 First, Eye-Truck doesn’t use cameras to detect an object or a person in the blind zone like mostly of devices on the market. This is very interesting because it makes our product cheaper than the others of the market and everybody is agreeing to say that we must make accessible safety tools for everyone. Also, since we decided to put LED at the sides of the trucks, visible via the side mirror, the driver doesn’t need to change habit and will continue to check in their side-mirror when he turns. That’s increase the efficiency of our product and reduce the accidents in case of system failure. Furthermore, even if there are many different blind spot monitoring systems that exist in the market, there is no one that is specific for trucks. This is terrible since trucks have the widest blind zone and a survey shows that the most of accident involve trucks. That’s why we create a blind spot monitoring system that fit with any kind of trucks and buses. Doing a generic blind spot monitoring system for trucks is another way to reduce again the price. So, we offer the most efficient and cheaper blind spot monitoring system of the market in order to grant the safety for all people.
 
+
+
+### Volvo
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/maxresdefault.jpg)
+BLIS is an acronym for Blind Spot Information System, a system of protection developed by Volvo. Volvo's previous parent, Ford Motor Company, has since adapted the system to its Ford, Lincoln, and Mercury brands.
+
+This system was first introduced on the redesigned 2007 Volvo S80 sedan and produced a visible alert when a car entered the blind spot while a driver was switching lanes, using two door mounted lenses to check the blind spot area for an impending collision.
+
 ## How will we do it ?
 A radar sensor or a laser sensor or any kind of proximity sensor will detect an object nearby. We will use the sensor the most suitable sensor after testing wich one is suited for the situation. Whenever a car or any object is near the sensor, it will detect the object and send a wireless signal to the Arduino. The Arduino will switch a LED in red. When the object finally leave, the sensor stop sending the signal and the LED will turn green again. This seems simple however a lot of variable have to be taken in consideration. 
 First, the light must be put somewhere that is not distracting the driver or that the driver become so reliant on it that he doesn't look at the side mirrors. We decided to put the LED on the side of the car somewhere the driver might be able to see from their side mirrors. Indeed, it will force the driver to look at their side mirror if the want to check for any object in their blindspot.
