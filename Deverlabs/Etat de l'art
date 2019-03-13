@@ -10,9 +10,13 @@ https://surdifrance.org/info-par-theme/accessibilite/237-metier-transcripteur-en
 https://www.developpez.net/forums/d1753780/general-developpement/programmation-systeme/embarque/arduino/utiliser-reconnaissance-vocale-reconnaitre-bruits/
 Basically they re analyzing your voice saying a color and the same color is lighted up.
 
-* Microsoft API that transcript your voice :
-https://www.nexmo.com/blog/2018/03/14/speech-voice-translation-microsoft-dr/
-
+* Transcription
+  -Microsoft API that transcript your voice :
+  https://www.nexmo.com/blog/2018/03/14/speech-voice-translation-microsoft-dr/
+  - Google
+  https://cloud.google.com/speech-to-text/
+  https://cloud.google.com/translate/
+  
 * Connection to Wi-Fi - How to connect to wifi with arduino : 
 https://letmeknow.fr/blog/2013/08/26/tuto-realiser-une-liaison-wifi/
 
