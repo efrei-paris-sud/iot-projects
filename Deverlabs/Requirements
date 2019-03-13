@@ -4,16 +4,22 @@ Idea to do a MVP (minimum viable product)
 1) As a User, i want to talk so that it retranscript my voice on the screen
 2) As a User, I want to translate what i am saying through the screen so that i can talk in my own language and the person can still understand me
 
-Tools :
+Definitive list of tools we need :
 - Arduino Board
 - Voice Recognition Module (Geeetech Voice Recognition Module that can recognize 15 voice instruction)
 - Microphone
 - USB to TTL module
 - Servo Motor
 - Jump Wires
+- Wifi module
+- Bum Bag
+- Smartphone with Cayenne
 
-- Etat de l'art : Technique + concept
-- List of definitive
+User Story 1 : As a User, i want to talk so that it retranscript my voice on the screen
+
+
+User Story 2 : As a User, I want to translate what i am saying through the screen so that i can talk in my own language and the person can still understand me
+
 
 
 
