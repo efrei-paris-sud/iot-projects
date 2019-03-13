@@ -11,14 +11,6 @@ A number of accidents happen on large vehicles each year because the drivers don
 As long as other cars are in the blind zone,detected by radars, the light will be on so that the driver can know and be careful when he is turning.Our product is hoped to be helpful in the bus and truck company to reduce accident risk.
 
 ## Why would you use EYE-TRUCK ?
-In the current market, when you want a device for the blindzone, most of them use cameras. The problem with it is that you need to put a screen in the board of the truck. In order to use it correctly, you will need to change your habit and to make it. Furthermore the blind spot monitoring system are optional and very expansive. Also there are not a standard device for trucks. So we will create a monitoring blind spot system that fits with any kind of trucks. The fact that we choose to create a generic device will reduce it's cost.
-That's why, the market we are aiming for is the sector of logistics transport.
-
-## Why EYE-TRUCK is the best blind spot monitoring system of the market?
-First, Eye-Truck doesn’t use cameras to detect an object or a person in the blind zone like mostly of devices on the market. This is very interesting because it makes our product cheaper than the others of the market and everybody is agreeing to say that we must make accessible safety tools for everyone. Also, since we decided to put LED at the sides of the trucks, visible via the side mirror, the driver doesn’t need to change habit and will continue to check in their side-mirror when he turns. That’s increase the efficiency of our product and reduce the accidents in case of system failure. Furthermore, even if there are many different blind spot monitoring systems that exist in the market, there is no one that is specific for trucks. This is terrible since trucks have the widest blind zone and a survey shows that the most of accident involve trucks. That’s why we create a blind spot monitoring system that fit with any kind of trucks and buses. Doing a generic blind spot monitoring system for trucks is another way to reduce again the price. So, we offer the most efficient and cheaper blind spot monitoring system of the market in order to grant the safety for all people.
-
-
-
 Here a schema :
 ![alt text](https://scontent.fcdg2-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50337171_295630234427899_5954866671507210240_n.jpg?_nc_cat=101&_nc_ht=scontent.fcdg2-1.fna&oh=0a23ed3b65b7b15b16704d0fb2e7fa84&oe=5CFA5E88)
 
@@ -33,6 +25,9 @@ In Germany 23 cyclists lost their lives in right-turn accidents with a HGV in 20
 Analysis of UK statistics suggest the 3 main danger zones around the truck cab are: the front of the lorry (when the lorry pulls away), the left (rest of the EU right) and the right (rest of the EU left) crashes for turning accidents.
 In order to prevent such accidents, many car manufacturers and suppliers have made their own efforts. For example, many cars have been equipped with a 360° panoramic image system; the rear-mounted car image system has also begun to focus on wide-angle, panoramic and other concepts; the side blind zone warning technology using body sensors has also begun to spread.
 In recent years, blind spot monitoring systems have been used in passenger cars. For example, the high-end version of Ford is equipped with a blind spot information system (BLIS), which can detect vehicles in visual blind spots and pass clear squeaks or rearview mirrors. A flashing signal on it to alert the driver. In addition to being used in passenger cars, the blind spot monitoring system is also used in Volvo's newly released FH series trucks, which use radar sensors to detect obstacles such as vehicles or pedestrians in the blind area on the right side of the vehicle, passing through the right A-pillar. The red LED indicator gives an alarm. However, the system that can monitor the whole blind area of heavy truck is still in the research stage in every main engine factory in the world, and has not been applied on those sold models.
+
+## Why EYE-TRUCK is the best blind spot monitoring system of the market?
+First, Eye-Truck doesn’t use cameras to detect an object or a person in the blind zone like mostly of devices on the market. This is very interesting because it makes our product cheaper than the others of the market and everybody is agreeing to say that we must make accessible safety tools for everyone. Also, since we decided to put LED at the sides of the trucks, visible via the side mirror, the driver doesn’t need to change habit and will continue to check in their side-mirror when he turns. That’s increase the efficiency of our product and reduce the accidents in case of system failure. Furthermore, even if there are many different blind spot monitoring systems that exist in the market, there is no one that is specific for trucks. This is terrible since trucks have the widest blind zone and a survey shows that the most of accident involve trucks. That’s why we create a blind spot monitoring system that fit with any kind of trucks and buses. Doing a generic blind spot monitoring system for trucks is another way to reduce again the price. So, we offer the most efficient and cheaper blind spot monitoring system of the market in order to grant the safety for all people.
 
 ## How will we do it ?
 A radar sensor or a laser sensor or any kind of proximity sensor will detect an object nearby. We will use the sensor the most suitable sensor after testing wich one is suited for the situation. Whenever a car or any object is near the sensor, it will detect the object and send a wireless signal to the Arduino. The Arduino will switch a LED in red. When the object finally leave, the sensor stop sending the signal and the LED will turn green again. This seems simple however a lot of variable have to be taken in consideration. 
@@ -59,6 +54,16 @@ Finally, we are scared that the power of the sensor won't be enough to detect ob
 - Box (3DPrinted)
 - Glasses to protect your LED (Optional)
 
+## How do we know where is the blind spot？
+The size and extent of the blind spot will usually vary depending on factors such as the size of the truck and the location of the mirror installation. Since EYE-CHUCK is a portable device that can be installed on all trucks, it must be adapted to the type of truck to be installed during the development of EYE-CHUCK, so that EYE-CHUCK can provide drivers with more accurate reminders.
+
+We used Sammie software (a human-machine analysis software developed by Loughborough University in the UK) for analysis. The model of the truck is built in the sammie software, and the 90% standard human model is selected to analyze the driver's direct field of view in the cockpit and the indirect field of view through the mirror. As shown below
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis1.png)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis2.png)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/analysis3.png)
+
+When the product is launched, we can analyze most of the truck models in the market and get the dataset of the blind zone to provide the basis for the development of EYE-CHUCK.
+
 ## Technical Overview : How to do it ?
 
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema.jpg)
@@ -66,3 +71,15 @@ Finally, we are scared that the power of the sensor won't be enough to detect ob
 We will use Bluetooth to communicate between the radar and the Arduino. Moreover, we need to have an interface from the device to the user.
 We decided to use a LED to switch on when there is something in the blindspot and switch off when there is nothing. We have to be careful that the other cars do not mistake the LED with the turn signal. We might have to decrease the intensity of the light for it.
 Finally, we choose to also a gyro sensor to know when the user is currently turning. If a car or something is in his blind spot, the LED will flash to ask the driver to check.
+
+
+
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/CarLED.jpg)
+We decided to put the LED on the upperside of the side mirror (redcircles). It is more visible for the driver and also, he will need to check the mirror if he wants to check if there is something. Moreover, by putting it on the side mirror, you do not distract the driver while he is driving straight. Indeed, when we want to turn, we check for the side mirror but when we don't want to turn, we do not check it.
+
+
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/EmplacementRadar.jpg)
+The radar sensors will be put on the side (orange circles) , at the beginning of the blind spot and the second one will be put at the end of the blind spot.
+
+The principle is easy, if there is a car or a bike in front of the sensor and also the truck is moving to the left, the arduino will trigger the LED. Else, it will stay shutdown.
+We are switching on the LED only when the truck is trying to turn because we don't want to give too much information by having a LED that will switch on whenever a car is crossing the blindzone when the truck is moving straight. If the light keep turning on will make the driver be accustomed to it and won't look at it anymore.
