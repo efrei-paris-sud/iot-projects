@@ -116,3 +116,5 @@ Source : https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-
 
 We will use bluetooth low energy (BLE) to communicate between the different devices.
 There are a lot of advantages to use this. First, we don't need to have a Wifi or connect it to the internet. It will strenghten the security.
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/BLE-Intro.png)
+
