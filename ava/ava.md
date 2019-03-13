@@ -66,7 +66,7 @@ When the product is launched, we can analyze most of the truck models in the mar
 
 ## Technical Overview : How to do it ?
 
-![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema.jpg)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/GeneralSchema2.jpg)
 
 We will use Bluetooth to communicate between the radar and the Arduino. Moreover, we need to have an interface from the device to the user.
 We decided to use a LED to switch on when there is something in the blindspot and switch off when there is nothing. We have to be careful that the other cars do not mistake the LED with the turn signal. We might have to decrease the intensity of the light for it.
