@@ -1,4 +1,4 @@
-# SubTee
+# SubBag
 
 Contributors :
 * KREMER Nathan     nathan.kremer@efrei.net       xD3CODER                           
