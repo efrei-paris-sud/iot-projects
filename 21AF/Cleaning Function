@@ -1,0 +1,13 @@
+char *clean_string(char *dirtyString)
+{
+    int i = 0;
+
+	while((dirtyString[i] != '=') && dirtyString[i] != ':')
+	{
+        dirtyString[i] = ' ';
+        i++;
+	}
+	dirtyString[i] = ' ';
+
+	return dirtyString;
+}
