@@ -18,3 +18,22 @@ Processing est un envirronement de dev libre. "Processing est tout particulière
  Une fois les outils installé, on vérifie que les locigiels se lancent.
  
  Le pi est setup correctement.
+ 
+ 
+UPDATE : placer les fichiers : main.c io.c io.h et Makefile dans un dossier X
+Se placer dans le terminal dans ce dossier X
+Exectuer les commandes :
+make re
+Si tout se passe correctement, 3 messages doivent apparaitrent :
+Fichiers objects supprimés
+IOT supprimé
+IOT compiled
+
+Puis exécuter ./IOT
+Si tout se passe correctement, le message suivant apparait :
+end
+
+Pour voir que les données se sont écritent, ouvrir le fichier log_stat.csv
+
+ERREUR POSSIBLE : si le fichier log_stats.csv n'existe pas, le programme SEGFAULT à la première execution UNIQUEMENT, tout fonctionne
+ensuite.
