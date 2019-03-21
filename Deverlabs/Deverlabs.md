@@ -1,4 +1,4 @@
-# SubTee
+# SubBag
 
 Contributors :
 * KREMER Nathan     nathan.kremer@efrei.net       xD3CODER                           
@@ -22,7 +22,7 @@ While transcripting what you are saying, we gonna also analyse what you re feeli
 
 
 Component needed : 
-* A shirt
+* A Fanny Bag / Bum Bag
 * Screen LED
 * Microphone
 * Wireless Adapter (connection to the phone)
