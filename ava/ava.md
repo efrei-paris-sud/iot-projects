@@ -124,36 +124,54 @@ There are a lot of advantages to use this. First, we don't need to have a Wifi o
 The radar needs to be connect to an esp32 to work
 
 Plugs :
-     VCC(Power) -> 5V (black jumper)
-     Trig -> pin 12 (brown jumper)
-     Echo -> pin 14 (red jumper)
-     Ground -> Ground (white jumper)
+     * VCC(Power) -> 5V (black jumper)
+     * Trig -> pin 12 (brown jumper)
+     * Echo -> pin 14 (red jumper)
+     * Ground -> Ground (white jumper)
 
-Code :
-Set-up
- -We define constants for trigger and echo and initialize them with the right pin (trig = 12 and echo = 14)
- -We define variables to store the duration and the distance calculate thanks to the duration sized by the radar
- -We have to set the trigger pin as an output (send the signal) and the echo pin as an input (receive the signal)
+**Code :**
+
+
+ Set-up
+
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/radarCode1.PNG)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/radarCode2.PNG)
+
+ * We define constants for trigger and echo and initialize them with the right pin (trig = 12 and echo = 14)
+ * We define variables to store the duration and the distance calculate thanks to the duration sized by the radar
+ * We have to set the trigger pin as an output (send the signal) and the echo pin as an input (receive the signal)
+ 
  Main code (inside the loop)
- -We clear the trigger to be sure we will receive the signal that we sent and not an other
- -We turn on the trigger for a delay of 1O microseconds to send a signal
- -We can get the duration thanks to the echo (when it receive back the signal)
- -We calculate the distance between the radar and the object thanks to the duration (duration * speed) / 2 since the signal travel 2 times the distance between the radar and the object.
- -Now we get the distance so we can compare it to a limit that we fix. The fonction return that "Y" if something is in the blind zone or "N" if there is nothing in the blind zone. We can modify the range limit in the condition. For our test we put the limit to 80 cm.
- -This program (server side) send the answer (Y or N) via BLE to an other esp32 connect to a LED (client side) 
+ 
+ ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/radarCode3.PNG)
+ 
+ * We clear the trigger to be sure we will receive the signal that we sent and not an other
+ * We turn on the trigger for a delay of 1O microseconds to send a signal
+ * We can get the duration thanks to the echo (when it receive back the signal)
+ * We calculate the distance between the radar and the object thanks to the duration (duration * speed) / 2 since the signal travel 2 times the distance between the radar and the object.
+ * Now we get the distance so we can compare it to a limit that we fix. The fonction return that "Y" if something is in the blind zone or "N" if there is nothing in the blind zone. We can modify the range limit in the condition. For our test we put the limit to 80 cm
+ * This program (server side) send the answer (Y or N) via BLE to an other esp32 connect to a LED (client side) 
  
  ### Led System
   
   Our LED need to be connect to an esp32 to work
+  
   As we can see on the picture we choose the pin 12 for the led
   
-  Code :
+  **Code :**
   Set up
+  
+  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/ledCode1.PNG)
+  
    -We set up the variable for the LED to 12
+   
   Main program
-   -We receive Y or N via BLE from the other esp32
-   -We do computation on it in order to compare it to the char "Y" (dummy == Ydummy)
-   -Basically if we receive Y we turn on the LED and if we receive N we switch off the LED
+  
+  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/ledCode2.PNG)
+  
+   * We receive Y or N via BLE from the other esp32
+   * We do computation on it in order to compare it to the char "Y" (dummy == Ydummy)
+   * Basically if we receive Y we turn on the LED and if we receive N we switch off the LED
    
  ### Power
  We provide power to esp32 thanks to external battery
