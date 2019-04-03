@@ -121,7 +121,7 @@ static BLEAdvertisedDevice* myDevice;
 
 #### Scan all devices
 
-We scan all devices available every 5 seconds
+We scan all devices available every 5 seconds, you can find the same code as on Arduino IDE's example BLE_scan
 ```
   Serial.begin(115200);
   Serial.println("Starting Arduino BLE Client application...");
@@ -138,3 +138,35 @@ We scan all devices available every 5 seconds
   pBLEScan->setActiveScan(true);
   pBLEScan->start(5, false);
 ```
+
+The harder part is the connection since the Arduino IDE's client example doesn't work.
+Here how to make it, we begin by comparing the address between the device we scan and the address we are looking for:
+```
+  int compare_strings(char a[], char b[])
+{
+   int c = 0;
+ 
+   while (a[c] == b[c]) {
+      if (a[c] == '\0' || b[c] == '\0')
+         break;
+      c++;
+   }
+   
+   if (a[c] == '\0' && b[c] == '\0')
+      return 0;
+   else
+      return -1;
+}
+
+    if (!compare_strings(temp, address)) {
+      Serial.println("Inside");
+      BLEDevice::getScan()->stop();
+      myDevice = new BLEAdvertisedDevice(advertisedDevice);
+      doConnect = true;
+      doScan = true;
+
+    } // Found our server
+```
+
+Then ```bool connectToServer()``` Will connect to the server
+
