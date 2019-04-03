@@ -25,7 +25,6 @@ It is an application to simulate a client, it is useful since you can send any t
 We will start by calling the correct librairies and by defining the address of our service and characteristic :
 
 ```
-
 #include <BLEDevice.h>
 #include <BLEUtils.h>
 #include <BLEServer.h>
@@ -33,5 +32,43 @@ We will start by calling the correct librairies and by defining the address of o
 #define SERVICE_UUID        "4fafc201-1fb5-459e-8fcc-c5c9c331914b"
 #define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 ```
+Here you have the main code. This is coming from the Arduino IDE's example, I will explain you step by step :
 
+```
+void setup() {
+  Serial.begin(115200);
 
+  BLEDevice::init("Long name");
+  BLEServer *pServer = BLEDevice::createServer();
+  BLEService *pService = pServer->createService(SERVICE_UUID);
+  BLECharacteristic *pCharacteristic = pService->createCharacteristic(
+                                         CHARACTERISTIC_UUID,
+                                         BLECharacteristic::PROPERTY_READ |
+                                         BLECharacteristic::PROPERTY_WRITE
+                                       );
+
+```
+This is the frequency you want your data to be send to your computer , you will need to configure your console:
+```
+Serial.begin(115200);
+```
+
+Now we will name our BLE device
+```
+BLEDevice::init("Long name");
+```
+
+Then, we create the server object in order to initialize it :
+```
+BLEServer *pServer = BLEDevice::createServer();
+```
+
+Finally, we initialize the object and choose if the rights of our characterectic, if you can read it or write in it, here it is both :
+
+```
+  BLECharacteristic *pCharacteristic = pService->createCharacteristic(
+                                         CHARACTERISTIC_UUID,
+                                         BLECharacteristic::PROPERTY_READ |
+                                         BLECharacteristic::PROPERTY_WRITE
+                                       );
+```
