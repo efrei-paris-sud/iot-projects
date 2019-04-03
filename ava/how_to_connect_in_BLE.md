@@ -20,8 +20,11 @@ https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=fr
 
 It is an application to simulate a client, it is useful since you can send any type of data you want.
 
-## How to make a BLE server ?
+## How to make a BLE ?
 
+We will see the server side code than the client side.
+
+### A BLE server
 We will start by calling the correct librairies and by defining the address of our service and characteristic :
 
 ```
