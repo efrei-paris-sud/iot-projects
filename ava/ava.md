@@ -128,11 +128,12 @@ The radar needs to be connect to an esp32 to work
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/pinRadar2.jpg)
 
 Plugs :
+
      * VCC(Power) -> 5V (black jumper)
      * Trig -> pin 12 (brown jumper)
      * Echo -> pin 14 (red jumper)
      * Ground -> Ground (white jumper)
-
+     
 **Code :**
 
 
