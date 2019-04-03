@@ -72,3 +72,17 @@ Finally, we initialize the object and choose if the rights of our characterectic
                                          BLECharacteristic::PROPERTY_WRITE
                                        );
 ```
+
+This is the second part of the code, to put it simply, it is to start the server and advertize the service to other devices :
+```
+  pService->start();
+  // BLEAdvertising *pAdvertising = pServer->getAdvertising();  // this still is working for backward compatibility
+  BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
+  pAdvertising->addServiceUUID(SERVICE_UUID);
+  pAdvertising->setScanResponse(true);
+  pAdvertising->setMinPreferred(0x06);  // functions that help with iPhone connections issue
+  pAdvertising->setMinPreferred(0x12);
+  BLEDevice::startAdvertising();
+```
+
+Bravoooo ! You made your first BLE server ! You can check on your phone that the service was created ;)
