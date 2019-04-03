@@ -140,6 +140,7 @@ We scan all devices available every 5 seconds, you can find the same code as on 
 ```
 
 The harder part is the connection since the Arduino IDE's client example doesn't work.
+You can look at our folder : BLE_client_LED_final
 Here how to make it, we begin by comparing the address between the device we scan and the address we are looking for:
 ```
   int compare_strings(char a[], char b[])
@@ -170,3 +171,8 @@ Here how to make it, we begin by comparing the address between the device we sca
 
 Then ```bool connectToServer()``` Will connect to the server
 
+Finally, 
+```static void notifyCallback(BLERemoteCharacteristic* pBLERemoteCharacteristic,uint8_t* pData,size_t length,bool isNotify)```
+will look at the notification that the characteristic send. This is where we decided to put our code.
+
+Now you can do it yourself ! You can do it !!!!!
