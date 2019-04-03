@@ -89,3 +89,52 @@ This is the second part of the code, to put it simply, it is to start the server
 ```
 
 Bravoooo ! You made your first BLE server ! You can check on your phone that the service was created ;)
+
+
+### A BLE client
+
+We will make it in 4 steps :
+1) Scan all the devices available
+2) Check the device that has the address and the service we want
+3) Connect to the service
+4) Connect to the characteristic we want
+
+Those are the included library :
+
+```
+#include "BLEDevice.h"
+#include "BLEScan.h"
+// The remote service we wish to connect to.
+static BLEUUID serviceUUID("6e400001-b5a3-f393-e0a9-e50e24dcca9e");
+// The characteristic of the remote service we are interested in.
+static BLEUUID    charUUID("6e400003-b5a3-f393-e0a9-e50e24dcca9e");
+
+
+// Some variables
+static boolean doConnect = false;
+static boolean connected = false;
+static boolean doScan = false;
+static BLERemoteCharacteristic* pRemoteCharacteristic;
+static BLEAdvertisedDevice* myDevice;
+
+```
+
+#### Scan all devices
+
+We scan all devices available every 5 seconds
+```
+  Serial.begin(115200);
+  Serial.println("Starting Arduino BLE Client application...");
+  pinMode(ledPin, OUTPUT);
+  BLEDevice::init("");
+
+  // Retrieve a Scanner and set the callback we want to use to be informed when we
+  // have detected a new device.  Specify that we want active scanning and start the
+  // scan to run for 5 seconds.
+  BLEScan* pBLEScan = BLEDevice::getScan();
+  pBLEScan->setAdvertisedDeviceCallbacks(new MyAdvertisedDeviceCallbacks());
+  pBLEScan->setInterval(1349);
+  pBLEScan->setWindow(449);
+  pBLEScan->setActiveScan(true);
+  pBLEScan->start(5, false);
+```
