@@ -123,6 +123,10 @@ There are a lot of advantages to use this. First, we don't need to have a Wifi o
 
 The radar needs to be connect to an esp32 to work
 
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/sysRadar1.jpg)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/pinRadar1.jpg)
+![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/pinRadar2.jpg)
+
 Plugs :
      * VCC(Power) -> 5V (black jumper)
      * Trig -> pin 12 (brown jumper)
@@ -156,6 +160,8 @@ Plugs :
   
   Our LED need to be connect to an esp32 to work
   
+  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/sysLed.jpg)
+  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/pinLed.jpg)
   As we can see on the picture we choose the pin 12 for the led
   
   **Code :**
@@ -175,3 +181,5 @@ Plugs :
    
  ### Power
  We provide power to esp32 thanks to external battery
+ 
+ ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/battery.jpg)
