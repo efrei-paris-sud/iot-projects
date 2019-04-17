@@ -5,7 +5,7 @@
 
 Follow the report to plug the device correctly then plug the sensor first.
 Then plug the LED.
-
+https://github.com/siiscil/iot-projects/blob/master/ava/docs/README.md
 
 ## The Promotional Video
 
