@@ -1,7 +1,7 @@
-#INSTRUCTION
+# INSTRUCTION
 
 
-##How to start up the device
+## How to start up the device
 
 Follow the report to plug the device correctly then plug the sensor first.
 Then plug the LED.
