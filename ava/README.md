@@ -8,6 +8,10 @@ Then plug the LED.
 
 https://github.com/siiscil/iot-projects/blob/master/ava/docs/README.md
 
+The sources code are here (we can't move it since we use the links) :
+- This is for the LED : https://github.com/siiscil/iot-projects/tree/master/ava/BLE_client_LED_final
+- This is for the Radar : https://github.com/siiscil/iot-projects/tree/master/ava/radar_BLE_final
+
 ## The Promotional Video
 
 You can find it on the report or here :
