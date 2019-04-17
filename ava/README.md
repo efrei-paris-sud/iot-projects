@@ -197,9 +197,9 @@ Plugs :
  
  ### Box Models
  Light box:
- ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/light model.png)
+ ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/light%20model.png)
  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/light.jpg)
 
  Sensor box:
- ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/box model.png)
+ ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/box%20model.png)
  ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/model/box.jpg)
