@@ -128,7 +128,7 @@ We will use bluetooth low energy (BLE) to communicate between the different devi
 There are a lot of advantages to use this. First, we don't need to have a Wifi or connect it to the internet. It will strenghten the security.
 ![gitHub](https://github.com/siiscil/iot-projects/blob/master/ava/pictures/BLE-Intro.png)
 
-
+For more detail, go on click on this link : https://github.com/siiscil/iot-projects/blob/master/ava/how_to_connect_in_BLE.md
 ### Radar system
 
 The radar needs to be connect to an esp32 to work
