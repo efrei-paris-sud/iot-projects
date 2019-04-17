@@ -7,6 +7,12 @@ Our contributors are :
 - Yixin Li, liyixin@bupt.edu.cn,https://github.com/lalalalyx
 ![alt text](https://cdn.pixabay.com/photo/2016/05/25/14/14/angel-1414951_1280.png)
 
+
+
+![Alt Text](https://i.ytimg.com/an_webp/o_OY4E9pPxE/mqdefault_6s.webp?du=3000&sqp=CMex3OUF&rs=AOn4CLC5pwQuvD9LWOdr9m9KEfkBx7f5PA)
+
+
+
 ## What is EYE-TRUCK ?
 A number of accidents happen on large vehicles each year because the drivers don't notice the cars or pedestrians in the blind zone. Our product is a light stuck on the buses or trucks which reminds the driver when pedestrians or cars are in his blind zone. The lights should be stuck on the buses or trucks where we can see it with the mirror.
 As long as other cars are in the blind zone,detected by radars, the light will be on so that the driver can know and be careful when he is turning.Our product is hoped to be helpful in the bus and truck company to reduce accident risk.
