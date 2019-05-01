@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name= IOT
+Terminal=true
+Exec=lxterminal -e /home/pi/Documents/./IOTscript.sh
