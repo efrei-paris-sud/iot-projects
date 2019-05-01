@@ -1,0 +1,18 @@
+17=4=2019=13=57=10
+<
+Accelerometer
+x = -18
+y = 1
+z = -5
+Temp&Humidity
+24.00
+49.00
+Gas
+NH3: 1.24 ppm
+CO: 3.46 ppm
+NO2: 0.11 ppm
+C3H8: 1405.24 ppm
+CH4: 262.70 ppm
+H2: 0.51 ppm
+C2H5OH: 1.19 ppm
+
