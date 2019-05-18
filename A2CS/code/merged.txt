@@ -1,0 +1,17 @@
+22=3=19=20=42=58
+<
+Accelerometer
+x = -20
+y = -2
+z = 5
+CorpTemp
+37.00 *C
+30 %
+Gas
+NH3: 0.52 ppm
+CO: 3.88 ppm
+NO2: 0.24 ppm
+C3H8: 378.59 ppm
+CH4: 402.28 ppm
+H2: 0.61 ppm
+C2H5OH: 1.38 ppm

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name= Process
+Terminal=true
+Exec=lxterminal -e /home/pi/Documents/IOT_Projet/Final/Arduino2Pi/application.linux-armv6hf/./Arduino2Pi &
