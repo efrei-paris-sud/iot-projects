@@ -1,0 +1,45 @@
+
+void	log_stat(float* input, int numero_cycle)
+{
+		char buffer[50];
+		FILE	*exist = NULL;
+		FILE	*csv = NULL;
+		exist = fopen(PATH"/log_stats.csv", "r+");;
+
+		if (exist == NULL)
+		{
+			csv = fopen(PATH"/log_stats.csv", "a");
+			fprintf(csv, "date;gyro.x;gyro.y;gyro.z;body_temp;out_temp;NH3;CO;NO2;C3H8;CH4;H2;C2H5OH;heart_rate;latitude;longitude\n");
+		}
+		else
+			csv = fopen(PATH"/log_stats.csv", "a");
+
+		fclose(exist);
+		exist = NULL;
+
+		time_t t = time(NULL);
+		strftime(buffer, 50, "%F %T", localtime(&t));
+        int date = 24;
+
+
+
+		fprintf(csv, "%s;", buffer);
+		fprintf(csv, "%f;", input[0]);
+		fprintf(csv, "%f;", input[1]);
+		fprintf(csv, "%f;", input[2]);
+		fprintf(csv, "%f;", input[3]);
+		fprintf(csv, "%f;", input[4]);
+		fprintf(csv, "%f;", input[5]);
+		fprintf(csv, "%f;", input[6]);
+		fprintf(csv, "%f;", input[7]);
+		fprintf(csv, "%f;", input[8]);
+		fprintf(csv, "%f;", input[9]);
+		fprintf(csv, "%f;", input[10]);
+		fprintf(csv, "%f;", input[11]);
+		fprintf(csv, "%f;", input[12]);
+		fprintf(csv, "%f;", input[13]);
+		fprintf(csv, "%f\n", input[14]);
+
+		fclose(csv);
+
+}
